@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1080px;
+  margin: auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.navbar .company-name {
+  font-weight: 700;
+  cursor: pointer;
+}
+.navbar .nav-link a {
+  font-size: 1rem;
+  margin: 0 10px;
+  opacity: 0.7;
+}
+.navbar .nav-link a:hover {
+  opacity: 1;
+  text-shadow: 1px 2px 10px rgba(67, 54, 54, 0.66);
+}
+/* end navbar */
+
+#profile {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 70px;
+  /* max-width: ; */
+  text-align: left;
+  align-items: center;
+}
+#profile .avatar {
+  flex-grow: 1;
+  max-width: 70%;
+}
+
+.avatar img {
+  max-width: 50%;
+  border-radius: 50%;
+  border: 3px solid black;
+  box-shadow: -1px 7px 36px 11px rgba(0, 0, 0, 0.32);
+}
+#prfile .information {
+  flex-grow: 1;
+  text-align: left;
+  padding-left: 50px;
+}
+
+#profile .information button {
+  padding: 8px;
+  cursor: pointer;
+  border: 3px solid darkkhaki;
+  background-color: yellow;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#profile .information button:hover {
+  background-color: darkkhaki;
+}
+
+#profile .information h2 {
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  /* margin-top: 30px; */
+}
+#profile .information h3 {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  text-wrap: wrap;
+  opacity: 0.6;
+}
+#profile .information .address {
+  margin-top: 20px;
+}
+#profile .information .address p {
+  margin-top: 10px;
+}
+#profile .information .social-media {
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+#profile .information .social-media a {
+  margin-left: 5px;
+}
+.social-media .facebook {
+  color: #4267b2;
+}
+.social-media .instagram {
+  color: #c32aa3;
+}
+.social-media .youtube {
+  color: #ff0000;
+}
+.social-media .link-in {
+  color: #0a66c2;
+}
+.social-media a:hover {
+  box-shadow: -1px 7px 36px 11px rgba(0, 0, 0, 0.32);
+}
+/* section-2 */
+#about {
+  margin-top: 170px;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  gap: 200px;
+}
+
+#about .info {
+  flex-grow: 1;
+  text-align: left;
+  padding-left: 50px;
+  max-width: 50%;
+}
+
+#about .info h3 {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  text-wrap: wrap;
+  opacity: 1;
+}
+#about .info p {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  text-wrap: wrap;
+  opacity: 1;
+}
+#about .image {
+  flex-grow: 1;
+  max-width: 50%;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.subject {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.subject .frontend .s1 {
+  padding: 15px;
+  background-color: rgb(0, 228, 19);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.subject .frontend .s1:hover {
+  box-shadow: -1px 7px 36px 11px rgba(0, 0, 0, 0.32);
+}
+.subject .backend .s2 {
+  padding: 15px;
+  background-color: rgb(199, 4, 85);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.subject .backend .s2:hover {
+  box-shadow: -1px 7px 36px 11px rgba(0, 0, 0, 0.32);
+}
+.btn {
+  margin-top: 40px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 255, 0.438);
+  border: none;
+  color: white;
+  font-weight: 900;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn:hover {
+  box-shadow: -1px 7px 36px 11px rgba(0, 0, 0, 0.32);
+}
+
+.Enducation{
+  /* padding: 20px;
+  display: grid;
+  justify-content: space-between; */
+}
+.Enducation h3{
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  text-wrap: wrap;
+  opacity: 0.6;
+  margin-left: 1200px;
+
+}
+.Enducation-text{
+  display: grid;
+  grid-template-columns: 1.2fr 1fr ;
+  padding: 50px 0px;
+  gap: 2rem;
+  margin-left: 250px;
+}
+.Enducation-text .text1{
+  margin-left: auto;
+  text-align: right;
+}
+.Enducation-text h1{
+  margin-left: auto;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.Enducation-text p{
+  margin-top: 0.7rem;
+  font-style: italic;
+}
+.text2 .feb {
+  margin-top: 3rem;
+}
+.text2 .Apr{
+  margin-top: 3rem;
+}
+/* section-4 */
+.Experince h3{
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  text-wrap: wrap;
+  opacity: 0.6;
+  margin-left: 100px;
+}
+.Experince-text{
+  display: grid;
+  grid-template-columns: 1fr 1.7fr;
+  gap: 2rem;
+  margin-top: 30px;
+  /* font-size: 1.3rem;
+  font-weight: 600; */
+}
+.Experince-text h1{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.experince-year{
+  text-align: right;
+}
+.Experince-General{
+  margin-right: 100px;
+}
+.Experince-General p{
+  margin-top: 0.7rem;
+  font-style: italic;
+}
+.Experince-General ul{
+  margin-top: 20px;
+}
+/* section-4 */
+/* map */
+.Container{
+  margin-left: 100px;
+}
+.Container h3 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  text-wrap: wrap;
+  opacity: 0.6;
+  /* justify-content: space-between; */
+}
+.Container .Info{
+  display: flex;
+  /* justify-content: space-between; */
+}
+#contact .message .form-group-50{
+  display: flex;
+}
+#contact .message .form-group-50 .form-group{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex: 1;
+}
+#contact .message .form-group-100 .form-group{
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+#contact .message .form-group-50 .form-group label
+#contact .message .form-group-100 .form-group label{
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+#contact .message .form-group-50 .form-group input,
+#contact .message .form-group-100 .form-group input,
+#contact .message .form-group-100 .form-group textarea
+{
+  width: 100%;
+}
+.Info .message , .Info .insert-map{
+  flex-grow: 1;
+  max-width: 50%;
+}
+#contact .message input,
+#contact .message textarea
+{
+  border: 1px solid rgb(87, 87, 87);
+  padding: 5px 10px;
+  border-radius: 7px
+}
+#contact .message button{
+  padding: 10px 45px;
+  border: 1px;
+  cursor: pointer;
+  background: rgb(35, 119, 163);
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 600;
+}
+#contact .message button:hover{
+  background-color: rgb(43, 115, 154);
+}
+footer{
+margin-top: 15px;
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+}
+
